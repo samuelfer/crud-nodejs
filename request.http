@@ -1,0 +1,29 @@
+POST http://localhost:8000/products
+content-type: application/json
+
+{
+    "name": "fOICE",
+    "price": 10.0,
+    "quantity": 2
+}
+
+###
+GET http://localhost:8000/products
+
+
+###
+GET http://localhost:8000/products/1
+
+###
+PUT http://localhost:8000/products/1
+content-type: application/json
+
+{
+    "name": "Foice",
+    "price": 10.0,
+    "quantity": 2
+}
+
+
+###
+DELETE http://localhost:8000/products/1
