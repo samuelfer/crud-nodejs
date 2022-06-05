@@ -2,7 +2,7 @@ POST http://localhost:8000/products
 content-type: application/json
 
 {
-    "name": "fOICE",
+    "name": "Carrinho de mão",
     "price": 10.0,
     "quantity": 2
 }
@@ -26,4 +26,4 @@ content-type: application/json
 
 
 ###
-DELETE http://localhost:8000/products/1
+DELETE http://localhost:8000/products/5
